@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="formatos.css">
+    <style>
+        body {
+            background-color: #f8f9fa; /* Cor de fundo do corpo */
+        }
+    </style>
+</head>
+<body>
+
+    <header class="bg-dark text-white">
+        <div class="container-fluid">
+            <!-- Atualize o caminho da logo conforme necessário -->
+            <img src="C:\Users\user\OneDrive\Área de Trabalho\Images\logo.jpg" alt="Logotipo do Site" class="logo"> 
+            <h1>Cadastro</h1>
+            <!-- Adicione o menu de navegação Bootstrap aqui -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">Home</a>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="cadastro.html">Cadastro</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="receitas.html">Receitas</a>
+                            </li>
+                            <!-- Adicione links para outras páginas, se houver -->
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <!-- Formulário de Cadastro Bootstrap -->
+                <form action="mailto:yan_sales@hotmail.com" method="post" enctype="text/plain">
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome:</label>
+                        <input type="text" class="form-control" id="nome" name="nome" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">E-mail:</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <!-- Adicione os demais campos do formulário aqui -->
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-2">
+        <p>&copy; 2023 Yan Silva Sales. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

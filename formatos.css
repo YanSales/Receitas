@@ -1,0 +1,35 @@
+/* formatos.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 250px;
+    height: 250px;
+}
+
+nav {
+    /* Adicione formatações para a área do menu aqui */
+}
+
+main {
+    /* Adicione formatações para a área principal aqui */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+

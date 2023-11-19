@@ -1,0 +1,18 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    overflow-y: auto; /* Adiciona barra de rolagem automática na área principal */
+}
+
+header {
+    height: 60px; /* Altura do header */
+}
+
+main {
+    min-height: calc(100vh - 100px); /* Altura da área principal */
+}
+
+footer {
+    height: 25px; /* Altura do footer */
+}
